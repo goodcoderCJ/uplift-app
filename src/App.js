@@ -21,7 +21,8 @@ function PropsLearn({ color, brand, year }) {
 }
 //Using an array to get list and create component
 //Different props way of usage
-function Fruits({fruits}) {
+//list of fruits
+function Fruits({ fruits }) {
   return (
     <>
       <div className="fruit">{`${fruits.fav} ${fruits.likes}`}</div>
@@ -40,7 +41,7 @@ function App() {
     { id: 2, fav: "Apple", likes: false },
   ];
   const fruitLists = fruits.map((fruit) => {
-    return (<Fruits fruits={fruit}/>);
+    return <Fruits fruits={fruit} />;
   });
   const [loading, setLoading] = useState(true);
   setTimeout(() => {
