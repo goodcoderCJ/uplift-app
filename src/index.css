@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,42 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.car{
+  background-color: blue;
+  padding: 1em;
+  max-width: 200px;
+  color: white;
+}
+.fruit{
+  margin-top: 1em;
+  background-color: black;
+  color: white;
+  max-width: 200px;
+  padding: 1em;
+}
+.counter-btn{
+  margin-right: 1em;
+  padding: 0.6em;
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 800;
+  
+}
+@media(max-width:600px) {
+  .counter-btn{
+    padding: 0.3em;
+    margin-bottom: 0.4em;
+    font-weight: 200;
+  }
+}
+.counter-text{
+  font-weight: 900;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 1em;
+  max-width: 180px;
 }
