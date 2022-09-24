@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,46 +8,58 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container{
+  margin:0 auto;
+  padding: 0 4em;
+}
+/*Navbar  styles*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5em;
+}
+.logo{
+  color: #221e1f;
+}
+.links-items a{
+  text-decoration: none;
+  color: rgb(65, 63, 63);
+  padding: 0.5em;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
-.car{
-  background-color: blue;
-  padding: 1em;
-  max-width: 200px;
+#nav-link1{
+  margin-right: 2em;
+}
+#nav-link2{
+  background-color: #f1356d;
   color: white;
+  border-radius: 8px;
 }
-.fruit{
-  margin-top: 1em;
-  background-color: black;
-  color: white;
-  max-width: 200px;
-  padding: 1em;
+/*Home style*/
+.home{
+  margin-top: 5em;
 }
-.counter-btn{
-  margin-right: 1em;
+.blog-preview{
+  padding: 10px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+
+.blog-btn{
   padding: 0.6em;
-  background-color: blue;
-  border-radius: 10px;
   border: none;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 800;
-  
-}
-@media(max-width:600px) {
-  .counter-btn{
-    padding: 0.4em 0.8em;
-    margin-bottom: 0.4em;
-    font-weight: 200;
-  }
-}
-.counter-text{
-  font-weight: 900;
-  font-size: 1.2rem;
-  background-color: white;
-  padding: 1em;
-  max-width: 180px;
+  background-color: blue;
+  border-radius: 8px;
+  color: #fafafa;
+  margin-top: 1.5em;
 }
