@@ -1,0 +1,20 @@
+.not-found {
+  text-align: center;
+  margin-top: 3em;
+}
+h2 {
+  font-size: 3rem;
+}
+.zero {
+  color: #ffffff;
+  background-color: #ff6600;
+  border-radius: 3px;
+  padding: 0 0.1em;
+}
+.not-found p {
+  font-size: 1.2rem;
+  margin-top: 0.5em;
+}
+.not-found a {
+  margin-top: 1em;
+}

@@ -1,17 +1,25 @@
 import React from "react";
-import BlogList from "./BlogList";
-import useFetch from "./useFetch";
+import hero from "./images/uplift-image-background.jpg";
+import Image from "./Image";
+import "./Styles/home.css";
+
 export default function Home() {
-  const {
-    data: blogs,
-    isLoading,
-    error,
-  } = useFetch("http://localhost:8000/blogs");
   return (
-    <div className="home">
-      {error && <div>{error}</div>}
-      {isLoading && <div>loading...</div>}
-      {blogs && <BlogList blogs={blogs} title="All Blogs!" />}
+    <div className="hero-page">
+      <div className="hero-text">
+        <h1>Join hands in getting others up</h1>
+        <p>
+          Community of donors seeking to improve lives and livelihood of people.
+          It takes a village to build a human
+        </p>
+        <div className="hero-first-line"></div>
+        <div className="hero-second-line"></div>
+      </div>
+      <Image
+        src={hero}
+        alt="person lifting another's hand"
+        className="hero-image"
+      />
     </div>
   );
 }

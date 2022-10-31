@@ -1,15 +1,34 @@
 import React from "react";
+import logo from "./images/uplift-logo-edit.png";
+import Image from "./Image";
+import { Link } from "react-router-dom";
+import Links from "./Links";
+
+import "./Styles/navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
-      <h1 className="logo">The Cjay Blog</h1>
-      <div className="links-items">
-        <a href="/" id="nav-link1">
-          Home
-        </a>
-        <a href="/content" id="nav-link2">New Blog</a>
+    <div className="navbar">
+      <div className="logo-container">
+        <Image src={logo} alt="uplift logo" className="logo" />
       </div>
-    </nav>
+      <nav className="nav">
+        <ul><li>
+            <Links to="/">Home</Links>
+          </li>
+          <li>
+            <Links to="/about">About</Links>
+          </li>
+          <li>
+            <Links to="/user">User</Links>
+          </li>
+          <li>
+            <Link className="user-link" to="/donate">
+              Donate now
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 }

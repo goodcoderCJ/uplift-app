@@ -1,0 +1,46 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.about-img {
+  width: 400px;
+  padding: 3em 0;
+}
+.nonbulleted {
+  list-style: none;
+}
+.about-text-copy {
+  /* width: 50%; */
+  max-width: 500px;
+  padding: 3em 0;
+}
+.about-text-copy p {
+  max-width: 400px;
+  line-height: 1.5;
+}
+.about-text-copy h2 {
+  max-width: 350px;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 0.8em;
+  letter-spacing: -0.1rem;
+  color: #0b0b2b;
+  text-transform: capitalize;
+}
+.about-text-copy h3 {
+  color: #0b0b2b;
+}
+.about-goal {
+  margin-top: 2em;
+}
+.about-goal li {
+  margin-top: 0.5em;
+}
+.about-more {
+  border: 1px solid #0b0b2b;
+  color: #ff6600;
+  border-radius: 4px;
+  margin-top: 2em;
+  padding: 0.4em 0.8em;
+}

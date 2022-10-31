@@ -1,0 +1,30 @@
+.footer {
+  background-color: #0b0b2b;
+  margin-top: 3em;
+  margin-bottom: 0;
+  padding: 4em;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.socials a {
+  color: #fff;
+}
+.socials a + a {
+  margin-left: 1.4em;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-address {
+  display: flex;
+}
+.second-p {
+  margin-left: 0.5em;
+}
+.footer-container div + div {
+  margin-left: 4em;
+}

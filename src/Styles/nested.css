@@ -1,0 +1,14 @@
+.nested-section {
+  margin-top: 2em;
+  padding: 3em 0;
+  text-align: center;
+}
+.nested-img {
+  width: 300px;
+}
+.nested-copy p {
+  line-height: 1.5;
+}
+.last {
+  margin-bottom: 1em;
+}
