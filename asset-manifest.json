@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.91eae2ce.css",
-    "main.js": "/static/js/main.637a39b1.js",
+    "main.css": "/static/css/main.73e98b06.css",
+    "main.js": "/static/js/main.e01f464e.js",
     "static/media/uplift-image-background.jpg": "/static/media/uplift-image-background.d4fed4710355e1c551e6.jpg",
     "static/media/donate.png": "/static/media/donate.a39e9176e9e1e673cab5.png",
     "static/media/smiling-child.png": "/static/media/smiling-child.750d93c2d8fd1d866c5d.png",
     "index.html": "/index.html",
-    "main.91eae2ce.css.map": "/static/css/main.91eae2ce.css.map",
-    "main.637a39b1.js.map": "/static/js/main.637a39b1.js.map"
+    "main.73e98b06.css.map": "/static/css/main.73e98b06.css.map",
+    "main.e01f464e.js.map": "/static/js/main.e01f464e.js.map"
   },
   "entrypoints": [
-    "static/css/main.91eae2ce.css",
-    "static/js/main.637a39b1.js"
+    "static/css/main.73e98b06.css",
+    "static/js/main.e01f464e.js"
   ]
 }
