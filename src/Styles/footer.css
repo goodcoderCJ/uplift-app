@@ -28,3 +28,38 @@
 .footer-container div + div {
   margin-left: 4em;
 }
+@media (max-width: 700px) {
+  .footer {
+    padding: 1em 0;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .copy {
+    margin-top: 0.7em;
+  }
+  .socials {
+    flex-direction: column;
+    margin-top: 0.7em;
+    
+    padding: 0.6em;
+    align-items: center;
+  }
+  .socials a + a {
+    margin-left: 0;
+    margin-bottom: 0.3em;
+  }
+  .footer-container {
+    align-items: center;
+  }
+  .footer-container div + div {
+    margin-left: 0;
+  }
+}
+@media (max-width: 400px) {
+  .footer-container p,
+  .footer-container .copy,
+  .footer-container a {
+    font-size: 0.8rem;
+  }
+}

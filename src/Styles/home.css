@@ -1,14 +1,13 @@
 .hero-page {
   display: flex;
   justify-content: space-between;
-  padding: 1em 0;
-  margin-top: 3em;
-  /* border: 1px solid red; */
+  padding: 4em 0;
 }
 .hero-image {
   /* max-width: 100%; */
   width: 350px;
   aspect-ratio: 1;
+  margin-top: 3em;
   box-shadow: 5px 10px 15px 15px rgba(250, 80, 50, 0.1);
 }
 .hero-text h1 {
@@ -41,4 +40,30 @@
   height: 4px;
   background-color: #0b0b2b;
   margin-top: 0.2em;
+}
+@media (max-width: 700px) {
+  .hero-page {
+    flex-direction: column;
+  }
+  .hero-text {
+    max-width: 100%;
+  }
+  .hero-text h1,
+  .hero-text p {
+    max-width: 100%;
+  }
+  .hero-second-line {
+    margin-bottom: 4em;
+  }
+  .hero-image {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .hero-first-line {
+    width: 80px;
+  }
+  .hero-second-line {
+    width: 100px;
+  }
 }

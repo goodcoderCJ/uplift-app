@@ -13,7 +13,9 @@ export default function Navbar() {
         <Image src={logo} alt="uplift logo" className="logo" />
       </div>
       <nav className="nav">
-        <ul><li>
+        <div className="toggle"></div>
+        <ul>
+          <li>
             <Links to="/">Home</Links>
           </li>
           <li>

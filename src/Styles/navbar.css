@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
-  /* margin-top: 1em; */
 }
 .logo-container {
   display: flex;
@@ -39,4 +38,51 @@
   background-color: #ff6600;
   color: #fff !important;
   border-radius: 5px;
+}
+@media (max-width: 700px) {
+  .nav ul li + li {
+    margin-left: 0.4em;
+  }
+  .nav ul li a {
+    font-size: 0.9rem;
+    padding: 0.4em 0.8em;
+  }
+  .logo {
+    width: 50px;
+  }
+}
+@media (max-width: 350px) {
+  .logo {
+    width: 30px;
+  }
+  .nav ul li + li {
+    margin-left: 0.6em;
+  }
+  .nav ul li a {
+    font-size: 0.6rem;
+  }
+  .navbar {
+    padding: 0.5em;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .nav ul {
+    flex-direction: column;
+    display: none;
+  }
+  .toggle {
+    width: 8px;
+    height: 2px;
+    position: relative;
+    background-color: #fff;
+  }
+  .toggle::before {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    width: 8px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 2em;
+  }
 }

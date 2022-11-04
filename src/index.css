@@ -8,6 +8,7 @@
 .container {
   margin: 0 auto;
   padding: 0 4em;
+  
 }
 .nav-compo-div {
   background-color: #141444;
@@ -31,5 +32,10 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    padding: 0 2em;
   }
 }
